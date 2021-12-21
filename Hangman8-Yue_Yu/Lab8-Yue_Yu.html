@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="Lab8-Yue_Yu.css" />
+    <script src="Lab8-Yue_Yu.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body onload="getKeyboard()">
+<div class="container">
+    <h1 id="firstLine">Hangman</h1>
+    <div id="wrongAnswers">Wrong answers:<br>
+        <p id="wrongLetters"></p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="mainBlock">
+        <img id='hangman' src="images/0.jpg" alt="">
+        <p id="hint">Guess a character in Harry Potter books：</p>
+        <p id="wordSpace"></p>
+        <br>
+        <div id="keyboard"></div>
+        <button id="restart" onClick="reset()">Restart</button>
+    </div>
+</div>
+</body>
+</html>

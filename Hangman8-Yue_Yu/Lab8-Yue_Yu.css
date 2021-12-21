@@ -1,0 +1,64 @@
+* {
+    background-color: whitesmoke;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#firstLine {
+    font-family: "Arial Black";
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#wrongAnswers {
+    float: right;
+    text-align: center;
+    margin-right: 150px;
+    font: normal 25px arial;
+    background-color: gainsboro;
+}
+
+#wrongLetters,
+#hint {
+    font: normal 20px arial;
+}
+
+#mainBlock,
+#hangman,
+#wordSpace {
+    margin: 0 auto;
+    text-align: center;
+    font: bold 30px arial;
+}
+
+#restart {
+    float: right;
+    text-align: center;
+    font: normal 30px arial;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+
+#keyboard {
+    width: 650px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font: normal 30px arial;
+}
+
+#keyboard button {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font: normal 30px arial;
+}
+
+
+
+
+
